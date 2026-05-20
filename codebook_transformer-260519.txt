@@ -1,0 +1,37 @@
+(Qwerdrant) zetaomicron@user:~/Qwerdrant_v2$ python main_eval_decoder.py --model_type codebook_transformer --ckpt_path checkpoints/codebook_transformer_decoder-shard09-best.pt --embed_dim 128 --num_heads 4 --ff_dim 512 --num_layers 4 --dropout 0.1 --max_len 256
+Model type: codebook_transformer
+Checkpoint: checkpoints/codebook_transformer_decoder-shard09-best.pt
+Eval samples: 10000
+CER: 0.079551
+WER: 0.241236
+
+=== Sample predictions ===
+[0] GT : berlin therefore has a vital interest that the bloc remain intact, stable, and prosperous.
+[0] PRD: bethin therefore has a vitak interest that the club remain intace, ftable, and prosperous.
+
+[1] GT : his wife carolyn will swap places with him in the new year, so that he can take up his role as a commissioner and she will stay at home.
+[1] PRD: his wife carplin will away placed with him in the new year, so that he can take to his role as a commissioner and she will stay at home.
+
+[2] GT : through a facebook application, web viewers can watch the event and discuss it with others as it happens.
+[2] PRD: through a facebook application, web vitwers can watch the event and discuss or with others as it happens.
+
+[3] GT : he said workers were still examining the problem.
+[3] PRD: he said workers were still examiming the problem.
+
+[4] GT : fitzsimons told the guardian that he shot one of the men, former royal marine paul mcguigan, from innerleithen in scotland, three times as mcguigan allegedly pointed an assault rifle at him.
+[4] PRD: specaining told the disrsian that he shot one of the men, former toyal mayine park mcdpisan, from inverleiwhen in scotland, three times as mcarisan allegedly pointes an assault right at him.
+
+[5] GT : not yahoo, not microsoft, certainly not aol, not anyone.
+[5] PRD: not rahoo, not microsode, certainly not gol, but anyone.
+
+[6] GT : but every version that is being distributed is under the control of some group.
+[6] PRD: but every nersion that is being distributes of under the control os some group.
+
+[7] GT : out in the street, ropes strung across the lane between the shattered buildings hold up sheets.
+[7] PRD: yuu in the street, topes sttung across the hane between the sharyered cuildings hold to sleees.
+
+[8] GT : depends on the price of course.
+[8] PRD: friends in the price of course.
+
+[9] GT : and with our new governor, lt. governor and attorney general. as well as the legislature, we are going to begin to push back.
+[9] PRD: and with our new governor, jr. governor and attorney several. as well as the legislature, we are going to begin to push back.
